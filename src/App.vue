@@ -60,6 +60,9 @@ export default {
     salaray(value){
       if(value >= 50000){
         alert('Your salary cannot more 50.000')
+        setTimeout(() =>{
+          this.salaray = 20000
+        }, 2000)
       }
     }
   }
